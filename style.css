@@ -1,14 +1,92 @@
-h1{
-    color: red;
-    font-size: medium;
-    background-color: seashell;
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+}
+
+.orange {
+    color: royalblue;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.flexible-container {
+    display: flex;
+    padding: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 10px;
+    padding-top: 30px;
 
 }
-p{
-    color: yellow;
+
+#background-image {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#background-image2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
-img{
-    height: fit-content;
-    width: fit-content;
+
+#padding-top {
+    padding-top: 150px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+#img {
+    width: 80%;
+
+}
+
+.link-button {
+    background-image: linear-gradient(yellow, green);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#box-shadow {
+    box-shadow: 5px 7px 40px red;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 40px;
+
+
+}
+
+.box1 {
+
+    border-right: 15px solid;
+    border-image: linear-gradient(180deg, yellow, green);
+    border-image-slice: 1;
+}
+
+.box2 {
+
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-right: 15px solid;
+}
+
+#p {
+    text-align: center;
+    padding-top: 150px;
+    color: sienna;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
 }
